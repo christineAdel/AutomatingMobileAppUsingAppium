@@ -1,0 +1,7 @@
+username,password,isLoginSuccessful,errorMsg,testCaseDescription
+,secret_sauce,false,Username is required,01: Missing Username
+standard_user,,false,Password is required,02: Missing Password
+invalid_user,secret_sauce,false,Username and password do not match any user in this service.,03: Invalid Login with wrong userName
+standard_user,invalid_secret_sauce,false,Username and password do not match any user in this service.,04: Invalid Login with wrong password
+,,false,Username is required,05: Username and password are Missing
+standard_user,secret_sauce,true,,06: Login with a valid userName and password
